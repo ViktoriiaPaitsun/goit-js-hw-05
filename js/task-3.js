@@ -1,6 +1,6 @@
 'use strikt';
 const sortByDescendingFriendCount = users => {
-  return users.sort(
+  return users.toSorted(
     (firstUser, secondUser) =>
       secondUser.friends.length - firstUser.friends.length
   );
